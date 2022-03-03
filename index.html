@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body class="bg-[#F2F2F2]">
+    <div class="container py-10 flex flex-col items-center gap-10">
+        <section class="logo">
+            <div class="inline-grid grid-cols-1 sm:grid-cols-2">
+                    <p class="w-64 py-4 text-primary text-center text-2xl font-bold bg-white">Startup 3</p>
+                    <p class="w-64 py-4 text-white text-center text-2xl font-bold bg-primary">Startup 3</p>
+            </div>            
+        </section>
+        <section class="button">
+            <div class="inline-grid grid-cols-1 sm:grid-cols-3">
+                <div class="p-10 flex flex-col items-start gap-8 bg-white">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-[#EA3223] rounded-full ">
+                        <img src="./public/icons/sign-in__white.svg" alt="start button">
+                    </button>
+                    <button class="w-24 h-10 text-white font-medium bg-green rounded-full">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-white font-medium bg-green rounded-full">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-white font-medium bg-green rounded-full">Sign In</button>
+                </div>
+                <div class="p-10 flex flex-col items-start gap-8 bg-white">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-white border-2 border-violet border-opacity-30 rounded-full">
+                        <img src="./public/icons/sign-in__primary.svg" alt="start button">
+                    </button>
+                    <button class="w-24 h-10 text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
+                </div>
+                <div class="p-10 flex flex-col items-start gap-8 bg-primary">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-primary border-2 border-white border-opacity-30 rounded-full">
+                        <img src="./public/icons/sign-in__white.svg" alt="start button">
+                    </button>
+                    <button class="w-24 h-10 text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
+                </div>
+            </div>
+        </section>
+        <section class="input-field">
+            <div class="inline-grid grid-cols-1 md:grid-cols-2">
+                <div class="p-7 flex flex-col gap-12 bg-white">
+                    <div class="flex flex-col gap-5">
+                        <input class="w-64 h-12 pl-6 text-lg font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
+                        <input class="w-64 h-12 pl-6 text-lg font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <input class="w-80 h-16 pl-6 text-xl font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
+                        <input class="w-80 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <input class="w-48 h-10 pl-6 font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
+                        <input class="w-48 h-10 pl-6 font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="p-7 flex flex-col gap-12 bg-primary">
+                    <div class="flex flex-col gap-5">
+                        <input class="w-64 h-12 pl-6 text-lg font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
+                        <input class="w-64 h-12 pl-6 text-lg font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <input class="w-80 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
+                        <input class="w-80 h-16 pl-6 text-xl font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <input class="w-48 h-10 pl-6 font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
+                        <input class="w-48 h-10 pl-6 font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dropdowns">
+            <div class="inline-grid grid-cols-1 sm:grid-cols-2">
+                <div class="p-7 flex flex-col gap-10 bg-white">
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-10 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-10 font-medium text-white bg-violet rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-12 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-12 font-medium text-white bg-violet rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-14 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-14 font-medium text-white bg-violet rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="p-7 flex flex-col gap-10 bg-primary">
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-10 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-10 font-medium text-violet bg-white rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-12 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-12 font-medium text-violet bg-white rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <button class="w-48 h-14 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                        <button class="w-48 h-14 font-medium text-violet bg-white rounded-full">Dropdown
+                            <i class="fa-solid fa-angle-down pl-16"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="badges">
+            <div>
+                <div class="bg-white">
+                    <span class="px-3 py-2 text-white tracking-widest bg-violet rounded-xl">60% SALES</span><span>60% SALES</span>
+                    <span class="px-3 py-2 text-white tracking-widest bg-violet rounded-xl">60% SALES</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
