@@ -8,66 +8,66 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
-<body class="bg-[#F2F2F2]">
+<body class="bg-background">
     <div class="container py-10 flex flex-col items-center gap-10">
         <section class="logo">
-            <div class="inline-grid grid-cols-1 sm:grid-cols-2">
+            <div class="flex flex-col sm:flex-row">
                     <p class="w-64 py-4 text-primary text-center text-2xl font-bold bg-white">Startup 3</p>
                     <p class="w-64 py-4 text-white text-center text-2xl font-bold bg-primary">Startup 3</p>
             </div>            
         </section>
         <section class="button">
-            <div class="inline-grid grid-cols-1 sm:grid-cols-3">
+            <div class="flex flex-col sm:flex-row">
                 <div class="p-10 flex flex-col items-start gap-8 bg-white">
-                    <button class="w-10 h-10 pl-1 grid place-items-center bg-[#EA3223] rounded-full ">
-                        <img src="./public/icons/sign-in__white.svg" alt="start button">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-[#EA3223] rounded-full group hover:bg-white hover:border-2 hover:border-[#EA3223] focus">
+                        <i class="fa-solid fa-play text-xl text-white group-hover:text-[#EA3223]"></i>
                     </button>
-                    <button class="w-24 h-10 text-white font-medium bg-green rounded-full">Sign In</button>
-                    <button class="w-28 h-12 text-lg text-white font-medium bg-green rounded-full">Sign In</button>
-                    <button class="w-32 h-14 text-xl text-white font-medium bg-green rounded-full">Sign In</button>
+                    <button class="w-24 h-10 text-white font-medium bg-green rounded-full hover:bg-dark-green focus">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-white font-medium bg-green rounded-full hover:bg-dark-green focus">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-white font-medium bg-green rounded-full hover:bg-dark-green focus">Sign In</button>
                 </div>
                 <div class="p-10 flex flex-col items-start gap-8 bg-white">
-                    <button class="w-10 h-10 pl-1 grid place-items-center bg-white border-2 border-violet border-opacity-30 rounded-full">
-                        <img src="./public/icons/sign-in__primary.svg" alt="start button">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-white border-2 border-violet border-opacity-30 rounded-full group hover:bg-primary hover:border-0 focus">
+                        <i class="fa-solid fa-play text-xl text-primary group-hover:text-white"></i>
                     </button>
-                    <button class="w-24 h-10 text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
-                    <button class="w-28 h-12 text-lg text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
-                    <button class="w-32 h-14 text-xl text-primary font-medium bg-white border-2 border-bright-gray rounded-full">Sign In</button>
+                    <button class="w-24 h-10 text-primary font-medium bg-white border-2 border-bright-gray rounded-full hover:text-white hover:bg-primary hover:border-0 focus">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-primary font-medium bg-white border-2 border-bright-gray rounded-full hover:text-white hover:bg-primary hover:border-0 focus">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-primary font-medium bg-white border-2 border-bright-gray rounded-full hover:text-white hover:bg-primary hover:border-0 focus">Sign In</button>
                 </div>
                 <div class="p-10 flex flex-col items-start gap-8 bg-primary">
-                    <button class="w-10 h-10 pl-1 grid place-items-center bg-primary border-2 border-white border-opacity-30 rounded-full">
-                        <img src="./public/icons/sign-in__white.svg" alt="start button">
+                    <button class="w-10 h-10 pl-1 grid place-items-center bg-primary border-2 border-white border-opacity-30 rounded-full group hover:bg-white focus-light">
+                        <i class="fa-solid fa-play text-xl text-white group-hover:text-primary"></i>
                     </button>
-                    <button class="w-24 h-10 text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
-                    <button class="w-28 h-12 text-lg text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
-                    <button class="w-32 h-14 text-xl text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full">Sign In</button>
+                    <button class="w-24 h-10 text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full hover:bg-white hover:text-primary focus-light">Sign In</button>
+                    <button class="w-28 h-12 text-lg text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full focus-light">Sign In</button>
+                    <button class="w-32 h-14 text-xl text-white font-medium bg-primary border-2 border-white border-opacity-30 rounded-full focus-light">Sign In</button>
                 </div>
             </div>
         </section>
         <section class="input-field">
-            <div class="inline-grid grid-cols-1 md:grid-cols-2">
-                <div class="p-7 flex flex-col gap-12 bg-white">
+            <div class="flex flex-col md:flex-row">
+                <div class="px-4 py-10 flex flex-col gap-12 bg-white">
                     <div class="flex flex-col gap-5">
                         <input class="w-64 h-12 pl-6 text-lg font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
-                        <input class="w-64 h-12 pl-6 text-lg font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                        <input class="w-64 h-12 pl-6 text-lg font-medium text-white text-opacity-40 bg-violet rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
                     </div>
                     <div class="flex flex-col gap-5">
-                        <input class="w-80 h-16 pl-6 text-xl font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
-                        <input class="w-80 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                        <input class="w-72 h-16 pl-6 text-xl font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
+                        <input class="w-72 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-violet rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
                     </div>
                     <div class="flex flex-col gap-5">
                         <input class="w-48 h-10 pl-6 font-medium text-dark-violet text-opacity-40 bg-white border-2 border-bright-gray rounded-full" type="text" placeholder="Your email">
-                        <input class="w-48 h-10 pl-6 font-medium text-white text-opacity-40 bg-violet border-2 border-bright-gray rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                        <input class="w-48 h-10 pl-6 font-medium text-white text-opacity-40 bg-violet rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
                     </div>
                 </div>
-                <div class="p-7 flex flex-col gap-12 bg-primary">
+                <div class="p-4 py-10 flex flex-col gap-12 bg-primary">
                     <div class="flex flex-col gap-5">
                         <input class="w-64 h-12 pl-6 text-lg font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
                         <input class="w-64 h-12 pl-6 text-lg font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
                     </div>
                     <div class="flex flex-col gap-5">
-                        <input class="w-80 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
-                        <input class="w-80 h-16 pl-6 text-xl font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
+                        <input class="w-72 h-16 pl-6 text-xl font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
+                        <input class="w-72 h-16 pl-6 text-xl font-medium text-violet text-opacity-30 bg-white rounded-full" type="text" placeholder="Your email" type="text" placeholder="Your email">
                     </div>
                     <div class="flex flex-col gap-5">
                         <input class="w-48 h-10 pl-6 font-medium text-white text-opacity-40 bg-primary border-2 border-white border-opacity-20 rounded-full" type="text" placeholder="Your email">
@@ -77,55 +77,55 @@
             </div>
         </section>
         <section class="dropdowns">
-            <div class="inline-grid grid-cols-1 sm:grid-cols-2">
-                <div class="p-7 flex flex-col gap-10 bg-white">
+            <div class="flex flex-col sm:flex-row">
+                <div class="p-10 flex flex-col gap-10 bg-white">
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-10 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                        <button class="w-48 h-10 font-medium text-violet bg-white border-2 border-bright-gray rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-10 font-medium text-white bg-violet rounded-full">Dropdown
+                        <button class="w-48 h-10 font-medium text-white bg-violet rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-12 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                        <button class="w-48 h-12 font-medium text-violet bg-white border-2 border-bright-gray rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-12 font-medium text-white bg-violet rounded-full">Dropdown
+                        <button class="w-48 h-12 font-medium text-white bg-violet rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-14 font-medium text-violet bg-white border-2 border-bright-gray rounded-full">Dropdown
+                        <button class="w-48 h-14 font-medium text-violet bg-white border-2 border-bright-gray rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-14 font-medium text-white bg-violet rounded-full">Dropdown
+                        <button class="w-48 h-14 font-medium text-white bg-violet rounded-full focus">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
                 </div>
-                <div class="p-7 flex flex-col gap-10 bg-primary">
+                <div class="p-10 flex flex-col gap-10 bg-primary">
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-10 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                        <button class="w-48 h-10 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-10 font-medium text-violet bg-white rounded-full">Dropdown
+                        <button class="w-48 h-10 font-medium text-violet bg-white rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-12 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                        <button class="w-48 h-12 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-12 font-medium text-violet bg-white rounded-full">Dropdown
+                        <button class="w-48 h-12 font-medium text-violet bg-white rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <button class="w-48 h-14 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full">Dropdown
+                        <button class="w-48 h-14 font-medium text-white bg-primary border-2 border-white border-opacity-20 rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
-                        <button class="w-48 h-14 font-medium text-violet bg-white rounded-full">Dropdown
+                        <button class="w-48 h-14 font-medium text-violet bg-white rounded-full focus-light">Dropdown
                             <i class="fa-solid fa-angle-down pl-16"></i>
                         </button>
                     </div>
@@ -133,13 +133,141 @@
             </div>
         </section>
         <section class="badges">
-            <div>
-                <div class="bg-white">
-                    <span class="px-3 py-2 text-white tracking-widest bg-violet rounded-xl">60% SALES</span><span>60% SALES</span>
-                    <span class="px-3 py-2 text-white tracking-widest bg-violet rounded-xl">60% SALES</span>
+            <div class="p-10 flex flex-col gap-5 bg-white">
+                <span class="px-3 py-1 text-violet font-bold tracking-widest bg-white border-2 border-bright-gray rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-violet rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-dark-violet bg-opacity-40 rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-[#482BE7] rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-green rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-[#E93A7D] rounded-xl">60% SALES</span>
+            </div>
+            <div class="p-10 flex flex-col gap-5 bg-violet">
+                <span class="px-3 py-1 text-white font-bold tracking-widest bg-violet border-2 border-white border-opacity-30 rounded-xl">60% SALES</span>
+                <span class="px-3 py-1 text-violet font-bold tracking-widest bg-white rounded-xl">60% SALES</span>
+            </div>
+        </section>
+        <section class="radiobutton">
+                <div class="w-40 h-36 flex justify-center items-center gap-4 bg-white">
+                    <input class="h-5 w-5 bg-background text-green border-0" type="radio" name="radiobutton">
+                    <input class="h-5 w-5 bg-background text-green border-0" type="radio" name="radiobutton">
+                </div>
+        </section>
+        <section class="checkbox">
+            <div class="w-40 h-36 flex justify-center items-center gap-4 bg-white">
+                <input class="h-5 w-5 bg-background text-green border-0 rounded-md" type="checkbox" name="radiobutton">
+                <input class="h-5 w-5 bg-background text-green border-0 rounded-md" type="checkbox" name="radiobutton">
+            </div>
+        </section>
+        <section class="switchers">
+            <div class="w-40 h-36 flex justify-center items-center bg-white">
+                <label for="check" class="relative w-12 h-8 sr-only">
+                    <input type="checkbox" id="check" class="sr-only peer">
+                    <span class="absolute w-full h-full bg-background rounded-full peer-checked:bg-green transition-all duration-500"></span>
+                    <span class="absolute w-6 h-6 left-1 top-1 bg-dark-violet bg-opacity-40 rounded-full peer-checked:bg-white peer-checked:left-5 transition-all duration-500"></span>
+                </label>
+            </div>
+        </section>
+        <section class="selector">
+            <div class="flex flex-col md:flex-row">
+                <div class="p-4 sm:p-7 flex flex-col gap-5 bg-white">
+                    <div class="w-72 sm:w-80 h-10 flex">
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-2 border-bright-gray rounded-l-full focus:text-white focus:bg-violet focus:border-violet">First</button>
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-y-2 border-bright-gray focus:text-white focus:bg-violet focus:border-violet">Second</button>
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-2 border-bright-gray rounded-r-full focus:text-white focus:bg-violet focus:border-violet">Third</button>
+                    </div>
+                    <div class="w-72 sm:w-80 h-12 flex">
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-2 border-bright-gray rounded-l-full focus:text-white focus:bg-violet focus:border-violet">First</button>
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-y-2 border-bright-gray focus:text-white focus:bg-violet focus:border-violet">Second</button>
+                        <button class="grow text-dark-violet text-opacity-40 font-medium bg-white border-2 border-bright-gray rounded-r-full focus:text-white focus:bg-violet focus:border-violet">Third</button>
+                    </div>
+                </div>
+                <div class="p-4 sm:p-7 flex flex-col gap-5 bg-primary">
+                    <div class="w-72 sm:w-80 h-10 flex ">
+                        <button class="grow text-white font-medium bg-primary border-2 border-white rounded-l-full focus:text-violet focus:bg-white focus:border-white">First</button>
+                        <button class="grow text-white font-medium bg-primary border-y-2 border-white focus:text-violet focus:bg-white focus:border-white">Second</button>
+                        <button class="grow text-white font-medium bg-primary border-2 border-white rounded-r-full focus:text-violet focus:bg-white focus:border-white">Third</button>
+                    </div>
+                    <div class="w-72 sm:w-80 h-12 flex ">
+                        <button class="grow text-white font-medium bg-primary border-2 border-white rounded-l-full focus:text-violet focus:bg-white focus:border-white">First</button>
+                        <button class="grow text-white font-medium bg-primary border-y-2 border-white focus:text-violet focus:bg-white focus:border-white">Second</button>
+                        <button class="grow text-white font-medium bg-primary border-2 border-white rounded-r-full focus:text-violet focus:bg-white focus:border-white">Third</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="paginators">
+            <div class="flex flex-col md:flex-row ">
+                <div class="w-56 h-32 flex justify-center items-center gap-3 bg-white">
+                    <button class="w-3 h-3 bg-background rounded-full focus:bg-green"></button>
+                    <button class="w-3 h-3 bg-background rounded-full focus:bg-green"></button>
+                    <button class="w-3 h-3 bg-background rounded-full focus:bg-green"></button>
+                    <button class="w-3 h-3 bg-background rounded-full focus:bg-green"></button>
+                    <button class="w-3 h-3 bg-background rounded-full focus:bg-green"></button>
+                </div>
+                <div class="w-56 h-32 flex justify-center items-center gap-3 bg-white">
+                    <button class="w-3 h-3 bg-white border-2 border-violet border-opacity-30 rounded-full focus:bg-dark-violet"></button>
+                    <button class="w-3 h-3 bg-white border-2 border-violet border-opacity-30 rounded-full focus:bg-dark-violet"></button>
+                    <button class="w-3 h-3 bg-white border-2 border-violet border-opacity-30 rounded-full focus:bg-dark-violet"></button>
+                    <button class="w-3 h-3 bg-white border-2 border-violet border-opacity-30 rounded-full focus:bg-dark-violet"></button>
+                    <button class="w-3 h-3 bg-white border-2 border-violet border-opacity-30 rounded-full focus:bg-dark-violet"></button>
+                </div>
+                <div class="w-56 h-32 flex justify-center items-center gap-3 bg-violet">
+                    <button class="w-3 h-3 bg-violet border-2 border-white border-opacity-30 rounded-full focus:bg-white"></button>
+                    <button class="w-3 h-3 bg-violet border-2 border-white border-opacity-30 rounded-full focus:bg-white"></button>
+                    <button class="w-3 h-3 bg-violet border-2 border-white border-opacity-30 rounded-full focus:bg-white"></button>
+                    <button class="w-3 h-3 bg-violet border-2 border-white border-opacity-30 rounded-full focus:bg-white"></button>
+                    <button class="w-3 h-3 bg-violet border-2 border-white border-opacity-30 rounded-full focus:bg-white"></button>
+                </div>
+            </div>
+        </section>
+        <section class="text-area">
+            <div class="flex flex-col sm:flex-row">
+                <div class="w-80 h-[600px] pl-4 flex flex-col justify-center gap-16 bg-white">
+                    <div class="flex flex-col gap-6">
+                        <textarea class="p-4 w-60 h-24 text-dark-violet text-opacity-40 border-2 border-bright-gray rounded-xl placeholder-gray-500 placeholder-opacity-70" placeholder="Your message"></textarea>
+                        <textarea class="p-4 w-60 h-24 text-white text-opacity-70 bg-violet rounded-xl placeholder-white placeholder-opacity-50 focus:shadow-none" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <textarea class="p-4 w-72 h-28 text-dark-violet text-opacity-40 text-lg font-medium border-2 border-bright-gray rounded-xl placeholder-gray-500 placeholder-opacity-70" placeholder="Your message"></textarea>
+                        <textarea class="p-4 w-72 h-28 text-white text-opacity-70 text-lg font-medium bg-violet rounded-xl placeholder-white placeholder-opacity-50" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="w-80 h-[600px] pl-4 flex flex-col justify-center gap-16 bg-primary">
+                    <div class="flex flex-col gap-6">
+                        <textarea class="p-4 w-60 h-24 text-white text-opacity-70 bg-primary border-2 border-white border-opacity-20 rounded-xl placeholder-white placeholder-opacity-40" placeholder="Your message"></textarea>
+                        <textarea class="p-4 w-60 h-24 text-violet text-opacity-70 bg-white rounded-xl placeholder-violet placeholder-opacity-40" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <textarea class="p-4 w-72 h-28 text-white text-opacity-70 text-lg font-medium bg-primary border-2 border-white border-opacity-20 rounded-xl placeholder-white placeholder-opacity-40" placeholder="Your message"></textarea>
+                        <textarea class="p-4 w-72 h-28 text-violet text-opacity-70 text-lg font-medium bg-white rounded-xl placeholder-violet placeholder-opacity-40" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="max-w-[765px] mx-auto py-16 grid grid-cols-1 gap-7 bg-white sm:grid-cols-4 ">
+                <div class="flex justify-center sm:justify-end">
+                    <img class="w-20 h-20" src="./public/img/testimonials-01.png" alt="fotografía de autora del testimonio">
+                </div>
+                <div class="px-4 sm:p-0 col-span-2 flex flex-col text-center sm:text-left">
+                    <p class="pb-5 text-lg font-medium text-dark-violet text-opacity-40">Extremely easy to use, helped us develop our Vote for George Washington micro-site extre- mely quickly! We will definitely use it again for other projects</p>
+                    <span class="pb-1 text-sm font-bold text-violet tracking-widest">JASMINE ANDREWS</span>
+                    <span class="text-dark-violet text-opacity-40">Microsoft</span>
+                </div>
+            </div>
+            <div class="max-w-[765px] p-4  grid grid-cols-1 bg-primary sm:p-8 md:p-16 md:grid-cols-4">
+                <div class="col-span-3 p-9 flex flex-col gap-7 border-2 border-white border-opacity-20 rounded-xl sm:flex-row">
+                    <div class="flex justify-center shrink-0">
+                        <img class="w-20 h-20" src="./public/img/testimonials-02.png" alt="fotografía del autor del testimonio">
+                    </div>
+                    <div class="text-center sm:text-left">
+                        <p class="pb-3 text-lg font-medium text-white">Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support.</p>
+                        <span class="text-sm font-bold text-white text-opacity-30 tracking-widest">TIMOTHY NATHAN</span>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
+    
 </body>
 </html>
